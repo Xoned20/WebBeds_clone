@@ -101,17 +101,17 @@ h5 {
 
 .carousel-top {
     position: absolute;
-    width: 1349px;
+    width: 1226.3px;
     height: 190.656px;
     z-index: 5;
 }
 
 .carousel-bottom {
     position: absolute;
-    width: 1349px;
-    height: 180.656px;
+    width: 1226.3px;
+    height: 160px;
     z-index: 5;
-    bottom: -70.3vh;
+    bottom: -75.3vh;
 }
 
 .info {
@@ -202,7 +202,7 @@ span {
     position: absolute;
     bottom: 15rem;
     left: 2px;
-    width: 1346px;
+    width: 1223px;
     height: 60px;
     z-index: 5;
   }
@@ -245,4 +245,29 @@ span {
 
   .foot1 p a {
     text-decoration: underline;
+  }
+
+  @media (max-width: 1280px) {
+
+    .carousel-top {
+        width: 1280px;
+    }
+    
+    .carousel-bottom {
+        width: 1280px;
+        height: 160px;
+        bottom: -34.9vh;
+    }
+
+    .footer-curve {
+        width: 1273px;
+        bottom: 15.1rem;
+      }
+
+    .news {
+        padding-bottom: 40px;
+    }
+
+
+
   }
