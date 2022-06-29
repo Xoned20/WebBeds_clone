@@ -101,17 +101,19 @@ h5 {
 
 .carousel-top {
     position: absolute;
-    width: 1226.3px;
-    height: 190.656px;
+    width: 1223.36px;
+    height: 231.33px;
     z-index: 5;
+    overflow: hidden;
 }
 
 .carousel-bottom {
     position: absolute;
-    width: 1226.3px;
-    height: 160px;
+    width: 1223.36px;
+    height: 256.66px;
     z-index: 5;
-    bottom: -75.3vh;
+    top: 832px;
+    overflow: hidden;
 }
 
 .info {
@@ -200,11 +202,12 @@ span {
 
   .footer-curve {
     position: absolute;
-    bottom: 15rem;
+    bottom: 9.4rem;
     left: 2px;
-    width: 1223px;
-    height: 60px;
+    width: 1223.36px;
+    height: 150px;
     z-index: 5;
+    overflow: hidden;
   }
 
 .footer li {
@@ -247,7 +250,7 @@ span {
     text-decoration: underline;
   }
 
-  @media (max-width: 1280px) {
+  /* @media (max-width: 1280px) {
 
     .carousel-top {
         width: 1280px;
@@ -270,4 +273,4 @@ span {
 
 
 
-  }
+  } */
