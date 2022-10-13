@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .navigation {
+    display: flex;
+    justify-content: space-around;
     background-color: #dc140a;
     padding-bottom: 50px;
     padding-top: 20px;
@@ -173,6 +175,10 @@ span {
     padding-top: 10px;
 }
 
+/* .img-fluid {
+    width: 20px;
+} */
+
 .carousel-item {
     object-fit: cover;
   }
@@ -197,7 +203,7 @@ span {
   .footer {
     position: relative;
     background-color: #dc140a;
-    padding-top: 7rem;
+    padding-top: 10px;
   }
 
   /* .footer-curve {
